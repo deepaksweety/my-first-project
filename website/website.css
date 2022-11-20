@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 25px;
+    padding: 36px;
+    border: 1px solid black;
+    border-radius: 50px;
+    
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+    color: black;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background:red;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transform: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    font-size: 30px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50);
+    text-align: center;
+    color: white;
+}
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: black;
+    text-transform: uppercase;
+    padding: 25px;
+    margin: 20px;
+    
+}
+button{
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 25px;
+    
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+span{
+    
+    color: red;
+    
+}
